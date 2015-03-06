@@ -1,0 +1,17 @@
+<h1> ME </h1>
+<% @users.each do |u| %> 
+	<p> <%= u.username %> </p>
+	<p> <%= u.email %> </p>
+	<p> <%= u.age %> </p>
+<% end %>
+
+<h1> CATS </h1>
+<% @cats.each do |c| %> 
+	<p> Name: <%= c.name %> </p>
+<% end %>
+
+<h1> Ice Cream </h1>
+<% @icecream.each do |i| %> 
+	<p> Flavor: <%= i.flavor %> </p>
+	<p> Deliciousness: <%= i.deliciousness %> </p>
+<% end %>
